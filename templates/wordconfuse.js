@@ -115,7 +115,7 @@ var game = {
  */
 
     /* constants */
-    ROUNDS: 2,
+    ROUNDS: 10,
     ANSWERS: 4,
     TURNTIME: 9,
 

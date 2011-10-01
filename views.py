@@ -9,9 +9,6 @@ from wordconfuse.models import GameScores,Words
 from wordconfuse.forms import NewHS,GameOver
 import random
 
-def index(request):
-    return render_to_response('index.html')
-
 def get_words(request):
     # select 10 entries from the word data
     r_set = Words.objects.order_by('?')[:10]

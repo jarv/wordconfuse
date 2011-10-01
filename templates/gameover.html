@@ -1,0 +1,65 @@
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+<script type="text/javascript">
+    //<![CDATA[
+    $(document).ready( function() {
+    });
+    //]]>
+</script>
+
+
+<div class="gameover_info">
+    {% if go.new_hs %}
+    <img src="{{ STATIC_PREFIX }}img/newhighscore.png" alt="highscore" />
+    <h1>You got {{ go.count }} questions correct and answered them in {{go.delta}} seconds!</h1>
+        <div class="newhs">
+            <div class="error"></div>
+            <input id="id_username" type="text" name="username" maxlength="10" />
+            <br />
+            <button class="hs_submit" type="submit">Submit Username for High Score</button> 
+        </div>
+    {% else %}
+        {% if go.count == 10 %}
+        <img src="{{ STATIC_PREFIX }}img/congratulations.png" alt="congratulations" />
+        <h1>You got all {{ go.count }} questions correct and answered them in {{ go.delta }} seconds!</h1>
+
+        {% else %}
+        <img src="{{ STATIC_PREFIX }}img/betterlucknexttime.png" alt="betterlucknextime" />
+            {% if go.count == 0 %}
+            <h1>You weren't able to answer any questions, that's terrible.</h1>
+            
+            {% else %} 
+
+                {% if go.count < 5 %}
+                <h1>You only answered {{ go.count }} question{{ go.count|pluralize }} correct out of 10</h1>
+                    (that's pretty awful)
+                {% else %}
+                    <h1>You answered {{ go.count }} questions correct out of 10</h1>
+                    (not bad, but still not perfect)
+                {% endif %}
+
+            {% endif %}
+        {% endif %}
+    {% endif %}
+</div>
+<div class="playagain">
+    <a class="newgame" id="gorestart" href="javascript:void(0)">[ play again ]</a>
+</div>
+<div class="hs-content">
+    <div class="hs-container">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th># Correct</th>
+                <th>Time (sec)</th>
+            </tr>
+            {% for entry in hs %}
+                <tr>
+                    <td>{{ entry.username }}</td>
+                    <td width="60px">{{ entry.count }}</td>
+                    <td>{{ entry.time_delta }} </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>

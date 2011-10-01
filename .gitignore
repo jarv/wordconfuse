@@ -1,0 +1,15 @@
+*.pyc
+*.pyo
+*.tmp*
+settings.py
+*sqlite*
+django-setup.py
+passenger_wsgi.py
+*.swp
+*.ORIG*
+*.BACKUP*
+*.BASE*
+*.LOCAL*
+*.REMOTE*
+*.orig*
+staticfiles/

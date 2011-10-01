@@ -1,0 +1,307 @@
+/* http://colorschemedesigner.com/#00c2mw0w0w0w0 */
+
+body {
+    background-color: #99ccff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a:link {color: #4242ff;}
+a:visited {color: #4242ff;}
+a:active {color: #ff6666;}
+a:hover {color: #ff6666;}
+a {text-decoration: none;}
+
+h1 {
+
+margin-top: 2px;
+margin-bottom: 2px;
+font-size: 16px;
+
+}
+
+div.container {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* CSS for highscore screen */
+div.hs-header {
+    width:100%;
+    text-align:center;
+    margin-top:5px;
+}
+div.hs {
+    margin-top: 5%;
+    background-color: #66ff66;
+    border: 1px solid black;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    display:none;
+}
+
+
+div.hs-container {
+    width: 100%;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+
+
+/* CSS for spash screen */ 
+
+div.splash {
+    width: 500px;
+    margin-top: 5%;
+    background-color: #66ff66;
+    border: 1px solid black;
+    position: absolute;
+    padding-top:5px;
+    padding-bottom:5px;
+    display:none;
+}
+
+div.spash-header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
+
+div.spash-buttons {
+    clear: both;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+}
+
+/* CSS for highscore buttons */
+
+.highscores {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width:120px;
+}
+
+/* CSS for gameover */
+table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+table th {
+    border-width: 1px;
+    padding: 2px;
+    border-style: solid;
+    border-color: gray;
+    background-color: #ffcc66;
+}
+table td {
+    border-width: 1px;
+    padding: 4px;
+    border-style: solid;
+    border-color: gray;
+    background-color: #f1fd72;
+    font-weight: bold;
+}
+
+div.gameover {
+    border: 1px solid black;
+    margin-top: 5%;
+    position: absolute;
+    display: none;
+    background-color: #66ff66;
+    height: 400px;
+    width: 500px;
+    z-index: -100;
+}
+
+div.gameover_info {
+    text-align: center;
+}
+div.error {
+    clear: both;
+    color: red;
+    font-weight: bold;
+}
+
+div.playagain {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+button.button {
+    width: 120px;
+}
+button.hs_submit {
+    width: 300px;
+    height: 30px;
+}
+
+input#id_username {
+    width: 100px;
+    height: 20px;
+    padding: 1px;
+    margin: 2px;
+}
+/* CSS for game */
+
+div.game {
+    border: 1px solid black;
+    width: 500px;
+    margin-top: 5%;
+    position: absolute;
+    display: none;
+    background-color: #66ff66;
+    height: 400px;
+    z-index: -100;
+}
+
+div.game-header {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+div.ct {
+    position: absolute;
+    top: 92px;
+    left: 208px;
+    font-size: 160px;
+    z-index: -50;
+    color: #339933;
+}
+div.nt {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 200;
+    opacity: 0.7; 
+    top: 200px;
+    left: 100px;
+    width: 296px;
+    height: 62px;
+}
+div.game-info {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 100px;
+}
+
+div.game-questions {
+    width: 500;
+    position: relative;
+    z-index: 100;
+}
+
+
+div.qb {
+    width:100%;
+    height:80px;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+#a0 {
+    top: 115px;
+    left: 13px;
+}
+
+#a1 {
+    left: 253px;
+    top: 115px;
+}
+#a2 {
+    left: 13px;
+    top: 192px;
+}
+#a3 {
+    left: 253px;
+    top: 192px;
+}
+
+div.ab {
+    position: absolute;
+    width:233px;
+    height:70px;
+    overflow: hidden;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topleft: 100px;
+    -moz-border-radius-bottomleft: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomright: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    /* gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699cc', endColorstr='#333399'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#6699cc), to(#333399)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #6699cc,  #333399); /* for firefox 3.6+ */ 
+    text-shadow: 0px -1px 0px #374683;
+    color: white;
+}
+
+
+div.abox {
+    position:relative; 
+    width:233px; 
+    height:70px;
+}
+
+div.answer  {
+    width: 213px;
+    top: 2px;
+    left: 10px;
+    font-size: 11px;
+    height:65px;
+    overflow: hidden;
+    display: table;
+    position: absolute;
+}
+
+div.answer p {
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.ab:hover {
+    cursor: pointer;
+    /* gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699cc', endColorstr='#3366cc'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#6699cc), to(#3366cc)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #6699cc,  #3366cc); /* for firefox 3.6+ */ 
+
+
+}
+
+img.centered {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+}

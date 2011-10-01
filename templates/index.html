@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<div class="splash "> 
+    <div class="spash-header">
+        <a href="/"><img src="{{ STATIC_PREFIX }}img/wordconfusion.png" 
+            alt="word confusion" /></a>
+    </div>
+    <div class="spash-buttons">
+        <button type="submit" class="button new">
+            New Game
+        </button>
+        <button type="submit" class="button highscores">
+            Highscores
+        </button>
+    </div>
+</div>
+<div class="hs">
+    <div class="hs-header">
+        <img src="{{ STATIC_PREFIX }}img/highscores.png" alt="highscores"/>
+        <br /><a class="playagain" href="javascript:void(0)">[ new game ]</a>
+    </div>
+    <div class="hs-content"></div>
+</div>
+<div class="gameover"></div>
+<div class="game">
+    <div class="ct"></div>
+    <div class="nt"></div>
+    <div class="game-header">
+        <a href="/"><img 
+            src="{{ STATIC_PREFIX }}img/wordconfusion2.png" alt="wordconfusion" /></a>
+    </div>
+    <div class="game-info">
+    </div>
+    <div class="game-questions">
+        <div class="qb" >
+        </div>
+        <div id="a0" class="ab"><div class="abox"> <div class="answer"></div></div></div>
+        <div id="a1" class="ab"><div class="abox"><div class="answer"></div></div></div>
+        <div id="a2" class="ab"><div class="abox"><div class="answer"></div></div></div>
+        <div id="a3" class="ab"><div class="abox"><div class="answer"></div></div></div>
+    </div>
+</div>
+{% endblock %}

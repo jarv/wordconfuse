@@ -1,0 +1,18 @@
+<div class="hs-container">
+    <div class="hs-table"> 
+        <table>
+            <tr>
+                <th>Name</th>
+                <th># Correct</th>
+                <th>Time (sec)</th>
+            </tr>
+            {% for entry in hs %}
+                <tr>
+                    <td>{{ entry.username }}</td>
+                    <td width="60px">{{ entry.count }}</td>
+                    <td>{{ entry.time_delta }} </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>

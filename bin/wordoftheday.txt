@@ -318,7 +318,6 @@ sack	Noun	The scrotum.
 sesquipedalian	Noun	A long word.
 shanghai	Noun	A slingshot.
 tectiform	Adjective	Roof-shaped.
-twenty-five/eight	Adverb	Unceasingly.
 vis-à-vis	Adjective	Face-to-face
 wherewithal	Adverb	In what way.
 aforethought	Adjective	Premeditated.
@@ -820,7 +819,6 @@ tantamount	Verb	To amount to as much.
 taper	Noun	A slender wax candle.
 tenacious	Adjective	Having a good memory.
 truss	Noun	A triangular bracket.
-twenty-five/eight	Noun	Unwavering constancy.
 typify	Verb	To embody, exemplify.
 unbosom	Verb	To confess a misdeed.
 undownable	Adjective	Undeniably important.

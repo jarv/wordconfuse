@@ -1,7 +1,8 @@
 /* http://colorschemedesigner.com/#00c2mw0w0w0w0 */
 
 body {
-    background-color: #99ccff;
+    /*background-color: #99ccff;*/
+    background-color: #fffec7;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -33,7 +34,7 @@ div.hs-header {
 }
 div.hs {
     margin-top: 5%;
-    background-color: #66ff66;
+    background-color: #afffaf;
     border: 1px solid black;
     position: absolute;
     width: 500px;
@@ -57,7 +58,7 @@ div.hs-container {
 div.splash {
     width: 500px;
     margin-top: 5%;
-    background-color: #66ff66;
+    background-color: #afffaf;
     border: 1px solid black;
     position: absolute;
     padding-top:5px;
@@ -122,7 +123,7 @@ div.gameover {
     margin-top: 5%;
     position: absolute;
     display: none;
-    background-color: #66ff66;
+    background-color: #afffaf;
     height: 400px;
     width: 500px;
     z-index: -100;
@@ -165,7 +166,7 @@ div.game {
     margin-top: 5%;
     position: absolute;
     display: none;
-    background-color: #66ff66;
+    background-color: #afffaf;
     height: 400px;
     z-index: -100;
 }
@@ -180,9 +181,9 @@ div.game-header {
 
 div.ct {
     position: absolute;
-    top: 92px;
+    top: 95px;
     left: 208px;
-    font-size: 160px;
+    font-size: 145px;
     z-index: -50;
     color: #339933;
     opacity: 0.3;
@@ -224,27 +225,27 @@ div.qb {
 
 
 #a0 {
-    top: 115px;
+    top: 95px;
     left: 13px;
 }
 
 #a1 {
     left: 253px;
-    top: 115px;
+    top: 95px;
 }
 #a2 {
     left: 13px;
-    top: 192px;
+    top: 185px;
 }
 #a3 {
     left: 253px;
-    top: 192px;
+    top: 185px;
 }
 
 div.ab {
     position: absolute;
     width:233px;
-    height:70px;
+    height:85px;
     overflow: hidden;
     -webkit-border-top-left-radius: 100px;
     -webkit-border-bottom-left-radius: 100px;
@@ -261,8 +262,8 @@ div.ab {
     /* gradient */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699cc', endColorstr='#333399'); /* for IE */
     background: -webkit-gradient(linear, left top, left bottom, from(#6699cc), to(#333399)); /* for webkit browsers */
-    background: -moz-linear-gradient(top,  #6699cc,  #333399);  /* for firefox 3.6+ */ 
-    /* text-shadow: 0px -1px 0px #374683;*/
+    background: -moz-linear-gradient(top,  #517fae,  #0c0c3b);  /* for firefox 3.6+ */ 
+    text-shadow: 0px -1px 0px #374683;
     color: white;
 }
 
@@ -270,15 +271,15 @@ div.ab {
 div.abox {
     position:relative; 
     width:233px; 
-    height:70px;
+    height:85px;
 }
 
 div.answer  {
-    width: 213px;
+    width: 200px;
     top: 2px;
-    left: 10px;
-    font-size: 11px;
-    height:65px;
+    left: 15px;
+    font-size: 14px;
+    height:80px;
     overflow: hidden;
     display: table;
     position: absolute;

@@ -1,13 +1,5 @@
 {% load static %}
 {% get_static_prefix as STATIC_PREFIX %}
-<script type="text/javascript">
-    //<![CDATA[
-    $(document).ready( function() {
-    });
-    //]]>
-</script>
-
-
 <div class="gameover_info">
     {% if go.new_hs %}
     <img src="{{ STATIC_PREFIX }}img/newhighscore.png" alt="highscore" />

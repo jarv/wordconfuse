@@ -35,11 +35,28 @@ div.hs-header {
 div.hs {
     margin-top: 5%;
     background-color: #afffaf;
-    border: 1px solid black;
     position: absolute;
     width: 500px;
     height: 300px;
     display:none;
+
+
+    border: 10px dashed #4242ff;
+    -webkit-border-top-left-radius: 35px;
+    -webkit-border-bottom-left-radius: 35px;
+    -webkit-border-top-right-radius: 35px;
+    -webkit-border-bottom-right-radius: 35px;
+    -moz-border-radius-topleft: 35px;
+    -moz-border-radius-bottomleft: 35px;
+    -moz-border-radius-topright: 35px;
+    -moz-border-radius-bottomright: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+
+
 }
 
 
@@ -56,14 +73,29 @@ div.hs-container {
 /* CSS for spash screen */ 
 
 div.splash {
-    width: 500px;
+    width: 520px;
+    height: 210px;
     margin-top: 5%;
     background-color: #afffaf;
-    border: 1px solid black;
     position: absolute;
     padding-top:5px;
     padding-bottom:5px;
     display:none;
+
+    border: 10px dashed #4242ff;
+    -webkit-border-top-left-radius: 35px;
+    -webkit-border-bottom-left-radius: 35px;
+    -webkit-border-top-right-radius: 35px;
+    -webkit-border-bottom-right-radius: 35px;
+    -moz-border-radius-topleft: 35px;
+    -moz-border-radius-bottomleft: 35px;
+    -moz-border-radius-topright: 35px;
+    -moz-border-radius-bottomright: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+
 }
 
 div.spash-header {
@@ -74,20 +106,32 @@ div.spash-header {
 
 div.spash-buttons {
     clear: both;
-    width: 250px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
     position: relative;
 
 }
 
-/* CSS for highscore buttons */
-
-.highscores {
+div.new {
     position: absolute;
+    left: 90px;
     top: 0px;
-    right:0px;
-    width:120px;
+    border: 1px solid black;
+    background-color: #d5ffd5;
+}
+
+div.new:hover {
+    border: 1px dotted #ff6767;
+
+}
+div.highscores:hover {
+    border: 1px dotted #ff6767;
+}
+div.highscores {
+    position: absolute;
+    left: 255px;
+    top: 0px;
+    border: 1px solid black;
+    background-color: #d5ffd5;
 }
 
 /* CSS for gameover */
@@ -161,14 +205,32 @@ input#id_username {
 /* CSS for game */
 
 div.game {
-    border: 1px solid black;
-    width: 500px;
+
+    width: 520px;
     margin-top: 5%;
     position: absolute;
     display: none;
     background-color: #afffaf;
-    height: 400px;
+    height: 410px;
     z-index: -100;
+
+    border: 10px dashed #4242ff;
+    -webkit-border-top-left-radius: 35px;
+    -webkit-border-bottom-left-radius: 35px;
+    -webkit-border-top-right-radius: 35px;
+    -webkit-border-bottom-right-radius: 35px;
+    -moz-border-radius-topleft: 35px;
+    -moz-border-radius-bottomleft: 35px;
+    -moz-border-radius-topright: 35px;
+    -moz-border-radius-bottomright: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+
+
+
 }
 
 div.game-header {
@@ -182,7 +244,7 @@ div.game-header {
 div.ct {
     position: absolute;
     top: 95px;
-    left: 208px;
+    left: 220px;
     font-size: 145px;
     z-index: -50;
     color: #339933;
@@ -193,7 +255,7 @@ div.nt {
     background-position: center;
     position: absolute;
     z-index: 200;
-    opacity: 0.7; 
+    opacity: 0.9; 
     top: 200px;
     left: 100px;
     width: 296px;
@@ -226,19 +288,19 @@ div.qb {
 
 #a0 {
     top: 95px;
-    left: 13px;
+    left: 23px;
 }
 
 #a1 {
-    left: 253px;
+    left: 263px;
     top: 95px;
 }
 #a2 {
-    left: 13px;
+    left: 23px;
     top: 185px;
 }
 #a3 {
-    left: 253px;
+    left: 263px;
     top: 185px;
 }
 

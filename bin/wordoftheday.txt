@@ -259,7 +259,6 @@ hydroplane	Noun	A hydrofoil
 indign	Adjective	Disgraceful
 infix	Verb	To instill.
 inimical	Adjective	Unfriendly.
-irony	Noun	{{cite news
 irrefutable	Adjective	Undeniable.
 Johnny-come-lately	Noun	A newcomer.
 memento	Noun	A keepsake.
@@ -920,7 +919,7 @@ derail	Verb	To come off the tracks.
 didactic	Adjective	Excessively moralizing.
 eccentric	Adjective	Not perfectly circular.
 febrile	Adjective	Full of nervous energy.
-flabbergasted	Adjective	Damned.{{reference-book
+flabbergasted	Adjective	Damned.
 flourish	Verb	To thrive or grow well.
 foment	Verb	To apply a poultice to.
 hagiography	Noun	A biography of a saint.
@@ -2876,7 +2875,7 @@ daub	Verb	To apply something to a surface in hasty or crude strokes.
 docile	Adjective	Yield to control or supervision, direction, or management.
 doge	Noun	The chief magistrate in the republics of Venice and Genoa.
 fastidious	Adjective	Excessively particular, demanding, or fussy about details.
-flabbergasted	Adjective	Appalled, annoyed, exhausted or disgusted.{{reference-book
+flabbergasted	Adjective	Appalled, annoyed, exhausted or disgusted.
 foist	Verb	To introduce or insert surreptitiously or without warrant.
 gregarious	Adjective	Describing one who enjoys being in crowds and socializing.
 grotto	Noun	A Marian shrine, usually built in a cavern-like structure.

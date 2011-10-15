@@ -221,7 +221,7 @@ var game = {
                     }).animate(
                         {
                             top: 160,
-                            left: 135,
+                            left: 145,
                         },
                         500,function() {
                             setTimeout(game.new_turn,900);
